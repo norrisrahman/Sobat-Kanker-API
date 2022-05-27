@@ -1,0 +1,55 @@
+Arguments: 
+  /usr/bin/node /usr/local/bin/yarn add nodemon
+
+PATH: 
+  /home/norris/Android/flutter/bin:/home/norris/ANDROID:/home/norris/Android/platform-tools:/home/norris/Android/cmdline-tools/tools/bin:/home/norris/Android/cmdline-tools/tools:/home/norris/anaconda3/bin:/opt/ros/rolling/bin:/home/norris/Android/flutter/bin:/home/norris/ANDROID:/home/norris/Android/platform-tools:/home/norris/Android/cmdline-tools/tools/bin:/home/norris/Android/cmdline-tools/tools:/home/norris/anaconda3/bin:/home/norris/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/local/ssl/bin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/norris/.npm/bin:/home/norris/.npm/bin
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  12.22.9
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)
+
+npm manifest: 
+  {
+    "name": "node-easy-notes-app",
+    "version": "1.0.0",
+    "description": "Never miss a thing in Life. Take notes quickly. Organize and keep track of all your notes.",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "Express",
+      "RestAPI",
+      "MongoDB",
+      "Mongoose",
+      "Notes"
+    ],
+    "author": "callicoder",
+    "license": "MIT",
+    "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "body-parser": "^1.18.2",
+      "dotenv": "^16.0.1",
+      "express": "^4.16.2",
+      "express-jwt": "^6.0.0",
+      "jsonwebtoken": "^8.5.1",
+      "mongoose": "^4.13.6",
+      "serve": "^13.0.2",
+      "rootpath": "^0.1.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
